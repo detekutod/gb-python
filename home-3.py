@@ -14,7 +14,7 @@ testdef(desc)
 '''
 
 # def принимает 3 числа и возвращает наибольшее из них
-'''
+
 def oneof3(a,b,c):
     if a > b and a > c:
         return a
@@ -31,5 +31,5 @@ y = int(input('enter y:'))
 z = int(input('enter z:'))
 
 print(oneof3(x,y,z))
-'''
+
 # см. урок 9 "разбор домашнего задания"
